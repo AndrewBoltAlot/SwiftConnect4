@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Wji7ivHGtSwD/kNGTKsVd4yRfgU=
+		Nxk6weQtL1ArhcAx1l7Ysuu6DDM=
 		</data>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2kIoryOxvk9Flo/B6bKjM3PAT8M=
+		lJ7S8oGR/4gG7BtNnOcUvdAN6pU=
 		</data>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZPKbq5dI0O9+FUv1H8n9+uEU860=
+		9TapjaV8o3Zw3Y72ijsM2T8W4R4=
 		</data>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		2kIoryOxvk9Flo/B6bKjM3PAT8M=
+		lJ7S8oGR/4gG7BtNnOcUvdAN6pU=
 		</data>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ZPKbq5dI0O9+FUv1H8n9+uEU860=
+		9TapjaV8o3Zw3Y72ijsM2T8W4R4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,32 +77,32 @@
 			7D80266HWnzagNbPzMam+hI3plAKYznASpwqsfSYxLI=
 			</data>
 		</dict>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNXoObzQLBzZDQHp3HJ8LRf1uJwMjZYKZ57rZBEJ1a8=
+			ZYjxbCp/IkZjozYjX2NBFA2pXT2qtZghKD78/+19RW0=
 			</data>
 		</dict>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qKaQrSkMA43AT0EfNUz6bhC+fsvtLjyu+i2PboSt6bs=
+			viGzczJ1Se4yzpVc2jPjLxZhL/Xg2NGFBkAGoIfp/3o=
 			</data>
 		</dict>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNXoObzQLBzZDQHp3HJ8LRf1uJwMjZYKZ57rZBEJ1a8=
+			ZYjxbCp/IkZjozYjX2NBFA2pXT2qtZghKD78/+19RW0=
 			</data>
 		</dict>
-		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qKaQrSkMA43AT0EfNUz6bhC+fsvtLjyu+i2PboSt6bs=
+			viGzczJ1Se4yzpVc2jPjLxZhL/Xg2NGFBkAGoIfp/3o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
