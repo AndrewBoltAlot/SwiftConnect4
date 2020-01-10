@@ -2,14 +2,15 @@
 //  ViewController.swift
 //  Connect4
 //
-//  Created by Me on 11/01/2019.
-//  Copyright © 2019 UCD. All rights reserved.
+//  Created by COMP47390 on 09/01/2020.
+//  Copyright © 2020 COMP47390. All rights reserved.
 //
 
 import UIKit
 
 // Connect4 Framework with Deep Learning Bot
 import Alpha0Connect4
+
 
 class ViewController: UIViewController {
     @IBOutlet weak var gameLabel: UILabel!
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
             if gameSession.botStarts {
                 if let move = gameSession.move {
                     DispatchQueue.main.async {
-                        self.gameLabel.text = printBoard("AlphaC4", [move.action], move.color == UIColor.red ? "X" : "O")
+                        self.gameLabel.text = printBoard("AlphaC4", [move.action], move.color == Color.red ? "X" : "O")
                     }
                 }
                 Thread.sleep(forTimeInterval: 0.38)
@@ -47,13 +48,13 @@ class ViewController: UIViewController {
                 if gameSession.userPlay(at: column) {
                     if let move = gameSession.move {
                         DispatchQueue.main.async {
-                            self.gameLabel.text = printBoard("Random", [move.action], move.color == UIColor.red ? "X" : "O")
+                            self.gameLabel.text = printBoard("Random", [move.action], move.color == Color.red ? "X" : "O")
                         }
                     }
                     Thread.sleep(forTimeInterval: 0.38)
                     if let move = gameSession.move {
                         DispatchQueue.main.async {
-                            self.gameLabel.text = printBoard("AlphaC4", [move.action], move.color == UIColor.red ? "X" : "O")
+                            self.gameLabel.text = printBoard("AlphaC4", [move.action], move.color == Color.red ? "X" : "O")
                         }
                     }
                     Thread.sleep(forTimeInterval: 0.38)
@@ -66,12 +67,16 @@ class ViewController: UIViewController {
             }
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
         let timer = Timer.scheduledTimer(withTimeInterval: 12, repeats: true) { _ in self.playGame() }
         timer.fire()
     }
+
+
 }
+
+
 

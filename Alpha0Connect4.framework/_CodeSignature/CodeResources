@@ -6,23 +6,31 @@
 	<dict>
 		<key>Headers/Alpha0Connect4-Swift.h</key>
 		<data>
-		n0f8fcbsbxjK4SBIlhnTnwMPI40=
+		y/q7LIJFFSzRxbtcqpjs+g1OsM0=
 		</data>
 		<key>Headers/Alpha0Connect4.h</key>
 		<data>
-		BKBYlaO2WB/hukGXyBZsLdYiwrA=
+		HR+3zCJXA3ioumcWSZUTs3OzPC4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		26tbv/Xr1Ze7Yq2oqFDgxXA6Hu0=
+		Wji7ivHGtSwD/kNGTKsVd4yRfgU=
 		</data>
-		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uaSyfmNXl9lrzdiyXyc15mV86Wk=
+		2kIoryOxvk9Flo/B6bKjM3PAT8M=
 		</data>
-		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TOsCsiE7CugikDisOkCjthF6vvc=
+		ZPKbq5dI0O9+FUv1H8n9+uEU860=
+		</data>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		2kIoryOxvk9Flo/B6bKjM3PAT8M=
+		</data>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		ZPKbq5dI0O9+FUv1H8n9+uEU860=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,7 +42,7 @@
 		</data>
 		<key>version0328.mlmodelc/model.espresso.net</key>
 		<data>
-		bqpUyclW+EsWoCBnb0fGCvFCSB0=
+		clrvoc5FMjU9xHQg6OS4YMG9DMw=
 		</data>
 		<key>version0328.mlmodelc/model.espresso.shape</key>
 		<data>
@@ -50,7 +58,7 @@
 		</data>
 		<key>version0328.mlmodelc/neural_network_optionals/coremldata.bin</key>
 		<data>
-		4SnyfFEDvFzES83woV4WDURQZv8=
+		3oqEe/+MND1puFOiFebud17y75Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,28 +67,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tw0LDb9AqpAhlfZ8HASUHLTc1r5GqoxWCtBqhep/J54=
+			vfOuRGm7mfsAwECa9DeXrl03So1GtXAAHNzAqnZxuGE=
 			</data>
 		</dict>
 		<key>Headers/Alpha0Connect4.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hT5JydR6J31AH4qtCY3ZwvV149m55sbKW+ssPeI/JL4=
+			7D80266HWnzagNbPzMam+hI3plAKYznASpwqsfSYxLI=
 			</data>
 		</dict>
-		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oLtBEDCC8eJ62Y5mZGBuSZxjhxj6g3T1bcevXa6z/pU=
+			KNXoObzQLBzZDQHp3HJ8LRf1uJwMjZYKZ57rZBEJ1a8=
 			</data>
 		</dict>
-		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iqbGBTn4bhrVGum0Y2WhKLzToqKrUpkDu84VxW5NskM=
+			qKaQrSkMA43AT0EfNUz6bhC+fsvtLjyu+i2PboSt6bs=
+			</data>
+		</dict>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KNXoObzQLBzZDQHp3HJ8LRf1uJwMjZYKZ57rZBEJ1a8=
+			</data>
+		</dict>
+		<key>Modules/Alpha0Connect4.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qKaQrSkMA43AT0EfNUz6bhC+fsvtLjyu+i2PboSt6bs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -101,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EP63X9yclj0lm5lawb9X+4ksD4Xzx61KxmAWhbVcJaA=
+			5fbArR0XMsg0O6emmoBpimXPHb73Ug3oLk1V+odp9UE=
 			</data>
 		</dict>
 		<key>version0328.mlmodelc/model.espresso.shape</key>
@@ -129,13 +151,13 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N0cI//dxndWXnsh11WzSKG9tPPfsMXo7JWMqqyjsN7s=
+			Zmh6rfhivXdsj8GLjp+OIAiXFIVu4jOzkCpZHQ1fKSU=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -166,24 +188,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -219,13 +229,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

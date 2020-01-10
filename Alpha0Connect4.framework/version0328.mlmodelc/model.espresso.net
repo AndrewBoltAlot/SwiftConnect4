@@ -1022,14 +1022,15 @@
       "n_parallel" : 1
     },
     {
-      "mode" : 1,
+      "bottom" : "leaky_re_lu_12_output",
       "weights" : {
 
       },
+      "mode" : 1,
+      "nd_axis" : 0,
       "top" : "flatten_1_output",
       "type" : "flatten",
-      "name" : "flatten_1",
-      "bottom" : "leaky_re_lu_12_output"
+      "name" : "flatten_1"
     },
     {
       "axis_h" : 2,
@@ -1109,14 +1110,15 @@
       "name" : "leaky_re_lu_13"
     },
     {
-      "mode" : 1,
+      "bottom" : "leaky_re_lu_14_output",
       "weights" : {
 
       },
+      "mode" : 1,
+      "nd_axis" : 0,
       "top" : "flatten_2_output",
       "type" : "flatten",
-      "name" : "flatten_2",
-      "bottom" : "leaky_re_lu_14_output"
+      "name" : "flatten_2"
     },
     {
       "nB" : 20,

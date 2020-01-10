@@ -2,11 +2,11 @@
 //  Alpha0Connect4.h
 //  Alpha0Connect4
 //
-//  Created by Me on 11/01/2019.
-//  Copyright © 2019 UCD. All rights reserved.
+//  Created by COMP47390 on 09/01/2020.
+//  Copyright © 2020 COMP47390. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Alpha0Connect4.
 FOUNDATION_EXPORT double Alpha0Connect4VersionNumber;
