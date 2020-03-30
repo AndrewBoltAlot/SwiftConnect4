@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Alpha0Connect4-Swift.h</key>
 		<data>
-		y/q7LIJFFSzRxbtcqpjs+g1OsM0=
+		axGx8lDL5G5Z6568oqieHFOD4m8=
 		</data>
 		<key>Headers/Alpha0Connect4.h</key>
 		<data>
@@ -14,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Nxk6weQtL1ArhcAx1l7Ysuu6DDM=
+		oYJsSKTflM+ITcbfmxbpOXOXIp0=
+		</data>
+		<key>Modules/Alpha0Connect4.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		b/sv0ooOJCC0WASS4dK6Xo0xH0U=
+		</data>
+		<key>Modules/Alpha0Connect4.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<data>
+		b/sv0ooOJCC0WASS4dK6Xo0xH0U=
 		</data>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lJ7S8oGR/4gG7BtNnOcUvdAN6pU=
+		MVorfAFAGpicN40pVtbZYAZfu6I=
 		</data>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9TapjaV8o3Zw3Y72ijsM2T8W4R4=
+		nRGn6wq18yIrQSayI7ArGSR1d6c=
 		</data>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		lJ7S8oGR/4gG7BtNnOcUvdAN6pU=
+		MVorfAFAGpicN40pVtbZYAZfu6I=
 		</data>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9TapjaV8o3Zw3Y72ijsM2T8W4R4=
+		nRGn6wq18yIrQSayI7ArGSR1d6c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vfOuRGm7mfsAwECa9DeXrl03So1GtXAAHNzAqnZxuGE=
+			LGOQJPDWw0Vi4rkb69HGtV3ngc2G3IfY3gO/BF+uii4=
 			</data>
 		</dict>
 		<key>Headers/Alpha0Connect4.h</key>
@@ -77,32 +85,46 @@
 			7D80266HWnzagNbPzMam+hI3plAKYznASpwqsfSYxLI=
 			</data>
 		</dict>
+		<key>Modules/Alpha0Connect4.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YvEMUqg/q3t/mVHdBOprSnjoYC2upAsOxKtwmaQyf6s=
+			</data>
+		</dict>
+		<key>Modules/Alpha0Connect4.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YvEMUqg/q3t/mVHdBOprSnjoYC2upAsOxKtwmaQyf6s=
+			</data>
+		</dict>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZYjxbCp/IkZjozYjX2NBFA2pXT2qtZghKD78/+19RW0=
+			kBd2YawJsgZxNMwPstSNDyiaLaODfKeBgbHRJU/v+jc=
 			</data>
 		</dict>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			viGzczJ1Se4yzpVc2jPjLxZhL/Xg2NGFBkAGoIfp/3o=
+			v2ll6wDHaABVMiFL8dVqreRAo9SuDDdFHtKZZBVwgdk=
 			</data>
 		</dict>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZYjxbCp/IkZjozYjX2NBFA2pXT2qtZghKD78/+19RW0=
+			kBd2YawJsgZxNMwPstSNDyiaLaODfKeBgbHRJU/v+jc=
 			</data>
 		</dict>
 		<key>Modules/Alpha0Connect4.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			viGzczJ1Se4yzpVc2jPjLxZhL/Xg2NGFBkAGoIfp/3o=
+			v2ll6wDHaABVMiFL8dVqreRAo9SuDDdFHtKZZBVwgdk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
