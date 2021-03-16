@@ -1,41 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9v6-mI-DTZ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="98X-IM-Ifh">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Connect4" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="9v6-mI-DTZ" customClass="ViewController" customModule="Connect4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k62-YS-vL2" customClass="Connect4Pathview" customModule="Connect4" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRZ-rP-spe">
-                                <rect key="frame" x="181.5" y="443" width="51.5" height="20"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KE3-ER-Qne" customClass="BoardView" customModule="Connect4" customModuleProvider="target">
+                                <rect key="frame" x="20" y="222.5" width="374" height="461"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="nc3-Ea-nB8" appends="YES" id="u0r-cU-1LO"/>
+                                    <outletCollection property="gestureRecognizers" destination="nc3-Ea-nB8" appends="YES" id="7jq-pC-ZJG"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKa-fs-cM3">
+                                <rect key="frame" x="186.5" y="798" width="41.5" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="v3d-3i-g7y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LoD-gx-vWx">
+                                <rect key="frame" x="178" y="724" width="79" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="9v6-mI-DTZ" eventType="touchUpInside" id="UCt-Ee-oYv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rau-um-0dC">
+                                <rect key="frame" x="175" y="183.5" width="64" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="bD6-J1-k77"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="y8U-2e-Gku"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="MRZ-rP-spe" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="IR6-eU-aXR"/>
-                            <constraint firstItem="MRZ-rP-spe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c57-Hj-DM7"/>
+                            <constraint firstItem="KE3-ER-Qne" firstAttribute="centerY" secondItem="y8U-2e-Gku" secondAttribute="centerY" id="4Ds-jC-jp4"/>
+                            <constraint firstItem="KE3-ER-Qne" firstAttribute="width" secondItem="k62-YS-vL2" secondAttribute="width" multiplier="0.903382" id="7w6-al-XBB"/>
+                            <constraint firstItem="LoD-gx-vWx" firstAttribute="centerX" secondItem="QKa-fs-cM3" secondAttribute="centerX" constant="10.25" id="CCj-yl-xBO"/>
+                            <constraint firstItem="LoD-gx-vWx" firstAttribute="leading" secondItem="y8U-2e-Gku" secondAttribute="leading" constant="178" id="CZl-Zi-Q9e"/>
+                            <constraint firstItem="LoD-gx-vWx" firstAttribute="centerX" secondItem="y8U-2e-Gku" secondAttribute="centerX" constant="10.5" id="HA0-0o-YPc"/>
+                            <constraint firstItem="KE3-ER-Qne" firstAttribute="height" secondItem="k62-YS-vL2" secondAttribute="height" multiplier="0.514509" id="IMO-Hy-GwA"/>
+                            <constraint firstItem="KE3-ER-Qne" firstAttribute="centerX" secondItem="y8U-2e-Gku" secondAttribute="centerX" id="QT7-xl-hgL"/>
+                            <constraint firstItem="QKa-fs-cM3" firstAttribute="top" secondItem="LoD-gx-vWx" secondAttribute="bottom" constant="33" id="Sjc-Hf-bvx"/>
+                            <constraint firstItem="Rau-um-0dC" firstAttribute="centerX" secondItem="y8U-2e-Gku" secondAttribute="centerX" id="bwD-sV-nga"/>
+                            <constraint firstItem="LoD-gx-vWx" firstAttribute="top" secondItem="KE3-ER-Qne" secondAttribute="bottom" constant="40.5" id="j4q-m6-ZlJ"/>
+                            <constraint firstItem="KE3-ER-Qne" firstAttribute="firstBaseline" secondItem="Rau-um-0dC" secondAttribute="baseline" constant="16" symbolType="layoutAnchor" id="mzg-XN-ZAN"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="gameLabel" destination="MRZ-rP-spe" id="0By-Co-e4p"/>
+                        <outlet property="boardView" destination="KE3-ER-Qne" id="vqk-Ag-Cqh"/>
+                        <outlet property="gameLabel" destination="QKa-fs-cM3" id="djh-lH-N33"/>
+                        <outlet property="pathView" destination="k62-YS-vL2" id="IjI-p2-cJy"/>
+                        <outlet property="turnLbl" destination="Rau-um-0dC" id="b6c-cI-RXP"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t2R-Q8-3N4" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="nc3-Ea-nB8">
+                    <connections>
+                        <action selector="tap:" destination="9v6-mI-DTZ" id="DKx-k9-Uoh"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="139" y="137"/>
+            <point key="canvasLocation" x="155.07246376811597" y="65.625"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

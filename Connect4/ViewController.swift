@@ -12,7 +12,7 @@ import UIKit
 import Alpha0Connect4
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var gameLabel: UILabel!
     
     // Play random game
@@ -68,11 +68,60 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBOutlet var pathView: Connect4Pathview!
+    @IBOutlet weak var boardView: BoardView!
+    @IBOutlet weak var turnLbl: UILabel!
+    var game: Connect4Game = Connect4Game()
+    //private var pieceBehaviour = Connect4PieceBehaviour()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action:#selector(self.handleTap(_:)) )
+        gestureRecognizer.delegate = self
+        boardView.addGestureRecognizer(gestureRecognizer)
+        displayPieces()
         // Do any additional setup after loading the view.
         let timer = Timer.scheduledTimer(withTimeInterval: 12, repeats: true) { _ in self.playGame() }
         timer.fire()
+    }
+    
+    @objc func handleTap(_ sender: UITapGestureRecognizer? = nil){
+        let fingerLoc = sender?.location(in: boardView)
+        let col = boardView.columnAt(x: fingerLoc!.x)
+        
+        if game.dropAt(col: col) {
+           // updateBoardView()
+            if let victory = game.gameOver(col: col) {
+                boardView.shadowVictory = victory
+                boardView.setNeedsDisplay()
+                turnLbl.text = game.playerTurn ? "Alpha0C4 Wins !!" : "Player Wins !!"
+                boardView.isUserInteractionEnabled = false
+            } else {
+                updateBoardView()
+            }
+        }
+    }
+    
+    func displayPieces(){
+        boardView.boardPieces = game.pieces
+        boardView.setNeedsDisplay()
+    }
+    
+    @IBAction func reset(_ sender: Any) {
+        game.reset()
+       // boardView.boardPieces.removeAll()
+        boardView.shadowVictory.removeAll()
+        updateBoardView()
+        boardView.isUserInteractionEnabled = true
+    }
+    
+    func updateBoardView(){
+        if game.playerTurn {
+            turnLbl.text = "Player"
+        } else {
+            turnLbl.text = "Alpha0C4"
+        }
+        displayPieces()
     }
 
 

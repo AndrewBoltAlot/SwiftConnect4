@@ -3,28 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A12A2BD2600D430001223DE /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A2BC2600D430001223DE /* BoardView.swift */; };
+		3A12A2BF2600D44C001223DE /* Connect4Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A2BE2600D44C001223DE /* Connect4Game.swift */; };
+		3A12A2C12600D476001223DE /* Connect4Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A2C02600D476001223DE /* Connect4Piece.swift */; };
+		3A12A2C32600D7B4001223DE /* Connect4PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A2C22600D7B4001223DE /* Connect4PathView.swift */; };
+		E5195EF125BB321100CCD0DB /* Alpha0C4_Package in Frameworks */ = {isa = PBXBuildFile; productRef = E5195EF025BB321100CCD0DB /* Alpha0C4_Package */; };
 		E559D22623C7A65600C770CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E559D22523C7A65600C770CC /* AppDelegate.swift */; };
 		E559D22823C7A65600C770CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E559D22723C7A65600C770CC /* SceneDelegate.swift */; };
 		E559D22A23C7A65600C770CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E559D22923C7A65600C770CC /* ViewController.swift */; };
 		E559D22D23C7A65600C770CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E559D22B23C7A65600C770CC /* Main.storyboard */; };
 		E559D22F23C7A65700C770CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E559D22E23C7A65700C770CC /* Assets.xcassets */; };
 		E559D23223C7A65700C770CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E559D23023C7A65700C770CC /* LaunchScreen.storyboard */; };
-		E559D23B23C7A74300C770CC /* Alpha0Connect4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E559D23A23C7A74300C770CC /* Alpha0Connect4.framework */; };
-		E559D23C23C7A74300C770CC /* Alpha0Connect4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E559D23A23C7A74300C770CC /* Alpha0Connect4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E559D23D23C7A74300C770CC /* Embed Frameworks */ = {
+		E5195EE025BB1D3700CCD0DB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E559D23C23C7A74300C770CC /* Alpha0Connect4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +34,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A12A2BC2600D430001223DE /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		3A12A2BE2600D44C001223DE /* Connect4Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4Game.swift; sourceTree = "<group>"; };
+		3A12A2C02600D476001223DE /* Connect4Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4Piece.swift; sourceTree = "<group>"; };
+		3A12A2C22600D7B4001223DE /* Connect4PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4PathView.swift; sourceTree = "<group>"; };
+		E5195EEF25BB31B200CCD0DB /* Alpha0C4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alpha0C4; sourceTree = "<group>"; };
 		E559D22223C7A65600C770CC /* Connect4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E559D22523C7A65600C770CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E559D22723C7A65600C770CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +47,6 @@
 		E559D22E23C7A65700C770CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E559D23123C7A65700C770CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E559D23323C7A65700C770CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E559D23A23C7A74300C770CC /* Alpha0Connect4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alpha0Connect4.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E559D23B23C7A74300C770CC /* Alpha0Connect4.framework in Frameworks */,
+				E5195EF125BB321100CCD0DB /* Alpha0C4_Package in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +64,7 @@
 		E559D21923C7A65600C770CC = {
 			isa = PBXGroup;
 			children = (
+				E5195EEF25BB31B200CCD0DB /* Alpha0C4 */,
 				E559D22423C7A65600C770CC /* Connect4 */,
 				E559D22323C7A65600C770CC /* Products */,
 				E559D23923C7A74300C770CC /* Frameworks */,
@@ -82,6 +89,10 @@
 				E559D22E23C7A65700C770CC /* Assets.xcassets */,
 				E559D23023C7A65700C770CC /* LaunchScreen.storyboard */,
 				E559D23323C7A65700C770CC /* Info.plist */,
+				3A12A2BC2600D430001223DE /* BoardView.swift */,
+				3A12A2BE2600D44C001223DE /* Connect4Game.swift */,
+				3A12A2C02600D476001223DE /* Connect4Piece.swift */,
+				3A12A2C22600D7B4001223DE /* Connect4PathView.swift */,
 			);
 			path = Connect4;
 			sourceTree = "<group>";
@@ -89,7 +100,6 @@
 		E559D23923C7A74300C770CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E559D23A23C7A74300C770CC /* Alpha0Connect4.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,13 +114,16 @@
 				E559D21E23C7A65600C770CC /* Sources */,
 				E559D21F23C7A65600C770CC /* Frameworks */,
 				E559D22023C7A65600C770CC /* Resources */,
-				E559D23D23C7A74300C770CC /* Embed Frameworks */,
+				E5195EE025BB1D3700CCD0DB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Connect4;
+			packageProductDependencies = (
+				E5195EF025BB321100CCD0DB /* Alpha0C4_Package */,
+			);
 			productName = Connect4;
 			productReference = E559D22223C7A65600C770CC /* Connect4.app */;
 			productType = "com.apple.product-type.application";
@@ -122,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "CS UCD";
 				TargetAttributes = {
 					E559D22123C7A65600C770CC = {
@@ -167,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E559D22A23C7A65600C770CC /* ViewController.swift in Sources */,
+				3A12A2BF2600D44C001223DE /* Connect4Game.swift in Sources */,
+				3A12A2BD2600D430001223DE /* BoardView.swift in Sources */,
+				3A12A2C32600D7B4001223DE /* Connect4PathView.swift in Sources */,
 				E559D22623C7A65600C770CC /* AppDelegate.swift in Sources */,
+				3A12A2C12600D476001223DE /* Connect4Piece.swift in Sources */,
 				E559D22823C7A65600C770CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +237,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -244,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -280,6 +298,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -298,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -314,11 +333,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJJ8RUJ7UW;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = Connect4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,11 +352,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJJ8RUJ7UW;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = Connect4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,6 +387,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5195EF025BB321100CCD0DB /* Alpha0C4_Package */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Alpha0C4_Package;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E559D21A23C7A65600C770CC /* Project object */;
 }
